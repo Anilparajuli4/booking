@@ -65,7 +65,7 @@ const SearchBar = ({ onSubmit, onReset, placeHolder, searchQuery }: Props) => {
               <FormControl>
                 <Input
                   {...field}
-                  className="border-none shadow-none text-xl focus-visible:ring-0"
+                  className="border-none shadow-none md:text-xl text-[12px] focus-visible:ring-0"
                   placeholder={placeHolder}
                 />
               </FormControl>
