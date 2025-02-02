@@ -129,7 +129,7 @@ const DetailPage = () => {
         </div>
 
         <div>
-          <Card>
+          <Card className="w-[320px] md:w-full">
             <OrderSummary
               restaurant={restaurant}
               cartItems={cartItems}
